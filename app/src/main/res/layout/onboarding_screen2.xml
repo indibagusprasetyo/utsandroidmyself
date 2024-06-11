@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!--
+
+        Nama        : Indi Bagus Prasetyo ;
+        NIM         : 10121902 ;
+        Kelas       : IF9K ;
+        Mata Kuliah : Pemrograman Android ;
+        Dosen       : Rizki Adam Kurniawan, M.Kom. ;
+        Final       : Selasa, 11 Juni 2024 ;
+
+        -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kenali1"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kenali2"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/know"
+        android:layout_width="279dp"
+        android:layout_height="304dp"
+        android:layout_above="@+id/description"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/ic_onb2" />
+
+    <TextView
+        android:id="@+id/btnGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"/>
+
+</RelativeLayout>

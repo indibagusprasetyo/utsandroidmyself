@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+
+        Nama        : Indi Bagus Prasetyo ;
+        NIM         : 10121902 ;
+        Kelas       : IF9K ;
+        Mata Kuliah : Pemrograman Android ;
+        Dosen       : Rizki Adam Kurniawan, M.Kom. ;
+        Final       : Selasa, 11 Juni 2024 ;
+
+        -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="120dp"
+            android:layout_height="117dp"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_mainprofile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/namaku"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_18sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageProfile" />
+
+        <Button
+            android:id="@+id/buttonPhone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/seabrok"
+            android:layout_marginTop="12dp"
+            android:drawableStart="@drawable/ic_call"
+            android:drawablePadding="8dp"
+            android:text="@string/call"
+            android:textAlignment="center"
+            android:visibility="visible"
+            app:icon="@drawable/ic_call"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textDescription" />
+
+        <Button
+            android:id="@+id/buttonEmail"
+            android:backgroundTint="@color/seabrok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="8dp"
+            android:text="@string/email"
+            app:icon="@drawable/ic_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonPhone" />
+
+        <Button
+            android:id="@+id/buttonFacebook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/seabrok"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            app:icon="@drawable/ic_facebook"
+            app:layout_constraintEnd_toStartOf="@id/buttonInstagram"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonEmail" />
+
+        <Button
+            android:id="@+id/buttonInstagram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/seabrok"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            app:icon="@drawable/ic_ig"
+            app:layout_constraintEnd_toStartOf="@id/buttonTwitter"
+            app:layout_constraintStart_toEndOf="@id/buttonFacebook"
+            app:layout_constraintTop_toBottomOf="@id/buttonEmail" />
+
+        <Button
+            android:id="@+id/buttonTwitter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/seabrok"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            app:icon="@drawable/ic_x"
+            app:layout_constraintEnd_toStartOf="@id/buttonLinkedIn"
+            app:layout_constraintStart_toEndOf="@id/buttonInstagram"
+            app:layout_constraintTop_toBottomOf="@id/buttonEmail" />
+
+        <Button
+            android:id="@+id/buttonLinkedIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/seabrok"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            app:icon="@drawable/ic_linkedin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/buttonTwitter"
+            app:layout_constraintTop_toBottomOf="@id/buttonEmail" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintTop_toBottomOf="@id/buttonLinkedIn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            tools:layout_editor_absoluteY="500dp" />
+
+        <Button
+            android:id="@+id/buttonAboutDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/seabrok"
+            android:layout_marginTop="16dp"
+            android:text="@string/about"
+            app:icon="@drawable/ic_about"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mapView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

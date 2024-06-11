@@ -1,0 +1,65 @@
+<resources>
+
+    <!--
+
+        Nama        : Indi Bagus Prasetyo ;
+        NIM         : 10121902 ;
+        Kelas       : IF9K ;
+        Mata Kuliah : Pemrograman Android ;
+        Dosen       : Rizki Adam Kurniawan, M.Kom. ;
+        Final       : Selasa, 11 Juni 2024 ;
+
+        -->
+
+    <string name="app_name">BagusXPRO</string>
+
+    <!--    Bottom NAV    -->
+    <string name="home">Home</string>
+    <string name="activity">Activity</string>
+    <string name="gallery">Gallery</string>
+    <string name="fav">Favourites</string>
+    <string name="profile">Profile</string>
+
+<!--    RecycleView Fragment Activity -->
+    <string name="bangun">Bangun Tidur</string>
+    <string name="ibadah">Ibadah</string>
+    <string name="gosok">Gosok Gigi</string>
+    <string name="mandi">Mandi</string>
+    <string name="sarapan">Sarapan</string>
+    <string name="bekerja">Bekerja</string>
+    <string name="istirahat">Istirahat</string>
+    <string name="wo">WorkOut</string>
+    <string name="qt">QualityTime</string>
+    <string name="makan">Makan</string>
+    <string name="belajar">Belajar</string>
+    <string name="kuliah">Kuliah</string>
+
+<!--    Deskripsi   -->
+    <string name="image_desc">myPicture</string>
+    <string name="album_art">myFavSong</string>
+
+
+<!--    Profile   -->
+    <string name="namaku">INDI BAGUS PRASETYO</string>
+    <string name="call">Telefon</string>
+    <string name="email">Surel</string>
+    <string name="about">Tentang</string>
+
+
+<!--    Walkthrough-->
+    <string name="selamat1">Selamat Datang! di BagusXPRO</string>
+    <string name="selamat1_2">Jelajahi Indi Bagus Prasetyo hanya disini.</string>
+
+    <string name="kenali1">Kenali lebih lanjut</string>
+    <string name="kenali2">Siapa dan Darimana?</string>
+
+    <string name="pelajari1">Inilah Profil Saya</string>
+    <string name="pelajari2">Semoga semakin erat dan kuat dalam menjalin silaturahmi.</string>
+    <string name="getstart">Mulai Sekarang</string>
+    <string name="next">Geser Layar untuk Melanjutkan ...</string>
+
+
+
+<!--    Home-->
+    <string name="tentangku">Saya kelahiran 2002 , Bandung. Saya besar di Kota Dolar (Majalaya). Sejak SD, SMP, SMK saya di Majalaya. Kini menekuni studi di Bandung dibarengi dengan kesibukan bekerja. Saya berpengalaman di Jaringan sejak saya Prakerin di salah satu BUMN di Indonesia. Hingga aplikasi ini dibuat saya sudah genap 4 Tahun bekerja di salah satu perusahaan kebutuhan Industri.</string>
+</resources>

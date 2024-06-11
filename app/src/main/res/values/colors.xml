@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+        Nama        : Indi Bagus Prasetyo ;
+        NIM         : 10121902 ;
+        Kelas       : IF9K ;
+        Mata Kuliah : Pemrograman Android ;
+        Dosen       : Rizki Adam Kurniawan, M.Kom. ;
+        Final       : Selasa, 11 Juni 2024 ;
+
+        -->
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="seabrok">#487eb0</color>
+</resources>
